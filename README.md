@@ -40,4 +40,4 @@ sudo sh -c 'echo "export PROJECT_ENV=development" >> /etc/profile.d/environment.
 ```
 Done.
 
-Inspired from django-bootstrap by netoxico.
+Inspired by https://github.com/netoxico/django-bootstrap.
