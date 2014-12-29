@@ -52,3 +52,7 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# public, static
+*/public/static/
+*/public/django-static/
