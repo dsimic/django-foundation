@@ -1,5 +1,5 @@
 """
-Django settings for myproject project.
+Django settings for {{project_name}} project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 import os
 BASE_DIR = os.path.join(os.path.abspath(os.path.dirname(__file__)), '..', '..')
 
-PROJECT_NAME = "myproject"  # must be name of project python module
+PROJECT_NAME = "{{project_name}}"  # must be name of project python module
 
 
 # Quick-start development settings - unsuitable for production

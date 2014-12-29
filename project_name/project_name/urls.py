@@ -9,8 +9,8 @@ admin.autodiscover()
 
 urlpatterns = patterns(
     '',
-    url(r'^$', 'myproject.views.home', name='home'),
-    # url(r'^myproject/', include('myproject.foo.urls')),
+    url(r'^$', '{{project_name}}.views.home', name='home'),
+    # url(r'^{{project_name}}/', include('{{project_name}}.foo.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^404/$', TemplateView.as_view(template_name='404.html')),
