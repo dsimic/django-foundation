@@ -1,8 +1,8 @@
 ## Django bootstrap project template
 ### Includes
-* Twitter bootstrap 3
+* Zurb Foundation 5
 * django-annoying
-* django-compressor
+* django-static
 * django-debug-toolbar
 * django-extensions
 
@@ -19,7 +19,7 @@ pip install django
 
 Run django startproject with the --template option
 ```sh
-django-admin.py startproject --template=https://github.com/netoxico/django-bootstrap/archive/master.zip project_name
+django-admin.py startproject --template=https://github.com/dsimic/django-foundation/archive/master.zip project_name
 ```
 
 Install requirements, for development
@@ -39,3 +39,5 @@ For development environment:
 sudo sh -c 'echo "export PROJECT_ENV=development" >> /etc/profile.d/environment.sh' && source /etc/profile.d/environment.sh
 ```
 Done.
+
+Inspired from django-bootstrap by netoxico.
