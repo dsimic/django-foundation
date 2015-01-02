@@ -114,8 +114,8 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 )
 
-# Enable django-static
-DJANGO_STATIC = True
+# Disable django-static in dev (enabled in production)
+DJANGO_STATIC = False
 
 DJANGO_STATIC_SAVE_PREFIX = os.path.join(
     BASE_DIR, "public/django-static/")
